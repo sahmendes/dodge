@@ -1,0 +1,82 @@
+.body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #e11d1d;;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.carousel-item img {
+    max-width: 100%;
+}
+
+.section-title {
+    font-family: "Anton", sans-serif;
+}
+
+#veiculos {
+    background-color: #ffeae6;
+}
+
+#charger img,
+#challenger img, 
+#hornet img ,
+#durango img {
+    height: 130px;
+}
+
+.text-colored {
+    color: #e11d1d;
+}
+
+.nav-cardapio .nav-link.active, 
+#fale-conosco button {
+    background-color: #e11d1d;;
+    color:#fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #e11d1d;;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #charger img,
+#challenger img, 
+#hornet img ,
+#durango img {
+    height: 300px;
+}
+}
